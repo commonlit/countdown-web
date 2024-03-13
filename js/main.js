@@ -1,12 +1,13 @@
 // Set the timestamp we're counting down to
-var countDownDate = 1550376000000;
-var daysElement = document.getElementById('days');
-var hoursElement = document.getElementById('hours');
-var minutesElement = document.getElementById('minutes');
-var secondsElement = document.getElementById('seconds');
+// var countDownDate = 1550376000000;
+var countDownDate = 1715704200000;
+var daysElement = document.getElementById("days");
+var hoursElement = document.getElementById("hours");
+var minutesElement = document.getElementById("minutes");
+var secondsElement = document.getElementById("seconds");
 
 // Update the count down every 1 second
-setInterval(function() {
+setInterval(function () {
     // Get current date and time
     var now = new Date().getTime();
 
